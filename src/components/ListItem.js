@@ -49,7 +49,7 @@ function ListItem(props) {
                 <ShiftButtons findIndex={findIndex} swap={swap} update={props.update} listItem={props.listItem} todoList={props.todoList}/>
                 <CheckBox update={props.update} findIndex={findIndex} todoList={props.todoList} listItem={props.listItem}/>
                 <div className="listContainer">
-                    {!props.listItem.complete ? <p>{props.listItem.task}</p> : <p><s>{props.listItem.task}</s></p>}
+                    {!props.listItem.complete ? <p>{props.listItem.task}</p> : <s><p className="strikeText">{props.listItem.task}</p></s>}
                 </div>
                 <DeleteButton findIndex={findIndex} update={props.update} todoList={props.todoList} listItem={props.listItem}/>
             </div>
