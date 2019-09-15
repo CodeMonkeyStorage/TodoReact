@@ -10,10 +10,10 @@ function ListItem(props) {
         for(let i = 0; i < props.todoList.length; i++){
             if(id === props.todoList[i].id.toString()){
               id = i;
-              break;
+              return id;
             }
         }
-        return id;
+        return undefined;
     }
 
     const swap = (index1, index2) => {
@@ -38,9 +38,11 @@ function ListItem(props) {
         event.preventDefault();
         const index1 = findIndex(event.dataTransfer.getData("text"));
         const index2 = findIndex(props.listItem.id.toString());
-        const newList = swap(index1, index2);
-        
-        props.update(newList);
+
+        if(index1 !== undefined && index2 !== undefined) {
+            const newList = swap(index1, index2);
+            props.update(newList);
+        }
     }
 
     return(
