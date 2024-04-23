@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/TodoReact/static/css/main.53171eaa.chunk.css",
-    "main.js": "/TodoReact/static/js/main.356fb08f.chunk.js",
-    "main.js.map": "/TodoReact/static/js/main.356fb08f.chunk.js.map",
-    "runtime~main.js": "/TodoReact/static/js/runtime~main.f64e5596.js",
-    "runtime~main.js.map": "/TodoReact/static/js/runtime~main.f64e5596.js.map",
-    "static/js/2.4738f7ab.chunk.js": "/TodoReact/static/js/2.4738f7ab.chunk.js",
-    "static/js/2.4738f7ab.chunk.js.map": "/TodoReact/static/js/2.4738f7ab.chunk.js.map",
+    "main.css": "/TodoReact/static/css/main.5cbb2f25.css",
+    "main.js": "/TodoReact/static/js/main.ed2c8b4f.js",
     "index.html": "/TodoReact/index.html",
-    "precache-manifest.ed21858bad4558e023ed9dd13a1acc88.js": "/TodoReact/precache-manifest.ed21858bad4558e023ed9dd13a1acc88.js",
-    "service-worker.js": "/TodoReact/service-worker.js",
-    "static/css/main.53171eaa.chunk.css.map": "/TodoReact/static/css/main.53171eaa.chunk.css.map"
-  }
+    "main.5cbb2f25.css.map": "/TodoReact/static/css/main.5cbb2f25.css.map",
+    "main.ed2c8b4f.js.map": "/TodoReact/static/js/main.ed2c8b4f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cbb2f25.css",
+    "static/js/main.ed2c8b4f.js"
+  ]
 }
