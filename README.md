@@ -13,7 +13,7 @@ This application was made with the intention of understanding HTML, CSS, Javascr
 3. npm run build
 
 ## Site Link
-https://codemonkeystorage.github.io/TodoReact/
+https://wrStorage.github.io/TodoReact/
 
 ## Available Scripts
 
